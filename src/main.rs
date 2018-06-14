@@ -1,6 +1,4 @@
 #![feature(lang_items,asm,plugin,drop_types_in_const)]
-#![plugin(clippy)]
-#![deny(warnings)]
 #![no_std]
 #![no_main]
 #![no_builtins]
