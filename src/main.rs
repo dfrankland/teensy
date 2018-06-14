@@ -126,3 +126,5 @@ pub extern fn rust_begin_panic(msg: core::fmt::Arguments,
     aircr.write(0x05FA0004);
     unreachable!();
 }
+
+#[lang = "eh_personality"] extern fn eh_personality() {}
